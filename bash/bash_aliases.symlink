@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# ls aliases
+alias ls='ls --group-directories-first'
+alias la='ls -A --group-directories-first'
+alias ll='ls -lh --group-directories-first'
+alias lla='ls -Alh --group-directories-first'
+alias which='type -a' #type -a is more helpful
+alias pg='ps aux | grep'
+
+#formatting "friendly" format
+alias du='du -h'
+alias df='df -h'
+
+#git alises
+alias gs='git status'
+alias gl='git log --decorate'
+alias ga='git add'
+alias gc='git commit'
+alias gd='git diff'
+alias gp='git push'
+alias gm='git move'
+
+#svn aliases
+alias sva='svn add'
+alias svc='svn commit'
+alias svd='svn diff'
+alias svs='svn status'
+alias svr='svn remove'
+alias svl='svn log'
+
+#######################
+#more stuff
+#######################
+
+
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
