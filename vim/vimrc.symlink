@@ -22,3 +22,6 @@ filetype on ""vim checks filetype and file to provide nice highlighting
 
 set list
 set listchars=tab:→\ ,trail:☃
+
+command! Q q
+command! W w
