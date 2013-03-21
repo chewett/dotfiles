@@ -1,0 +1,24 @@
+set nocompatible ""enables features that are not vi compatible but nice
+set tabstop=4 ""sets tab to take 4 spaces width
+set shiftwidth=4 ""sets the amount of spaces to move with auto indent
+set expandtab "" auto expands tabs to spaces
+set autoindent "" turns on automatic indenting
+set bs=2 "" fairly complex, people recommend it, see :help bs for details
+set softtabstop=4 ""this treats 4 spaces like a tab
+set expandtab
+set hlsearch
+set number ""turns on  side numbering
+set ruler ""shows the current line and column
+set wrap ""visually wraps the words without putting linebreaks
+set colorcolumn=80
+set showmatch
+set autoread ""check if a file has been changed outside vim and reload if vim hasnt edited the file
+set showcmd ""
+set showmode
+""set fdm=indent ""code folding for lines with the same indentation level
+set foldmethod=indent
+syntax on ""turns on syntax highlighting
+filetype on ""vim checks filetype and file to provide nice highlighting
+
+set list
+set listchars=tab:→\ ,trail:☃
