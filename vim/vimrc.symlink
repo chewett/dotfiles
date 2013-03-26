@@ -20,6 +20,10 @@ set foldmethod=indent
 syntax on ""turns on syntax highlighting
 filetype on ""vim checks filetype and file to provide nice highlighting
 
+colorscheme desert
+set background=dark
+hi ColorColumn ctermbg=darkgreen guibg=darkgreen
+
 set list
 set listchars=tab:→\ ,trail:☃
 
