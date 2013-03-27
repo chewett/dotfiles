@@ -29,3 +29,4 @@ set listchars=tab:→\ ,trail:☃
 
 command Q q
 command W w
+command WQ wq
