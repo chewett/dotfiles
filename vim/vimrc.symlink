@@ -27,5 +27,5 @@ hi ColorColumn ctermbg=darkgreen guibg=darkgreen
 set list
 set listchars=tab:→\ ,trail:☃
 
-command! Q q
-command! W w
+command Q q
+command W w
