@@ -18,8 +18,9 @@ alias gl='git log --decorate'
 alias ga='git add'
 alias gc='git commit'
 alias gd='git diff'
-alias gp='git push'
 alias gm='git move'
+alias gpull='git pull'
+alias gpush='git push'
 
 #svn aliases
 alias sva='svn add'
