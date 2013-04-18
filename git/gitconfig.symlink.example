@@ -6,7 +6,6 @@
 [user]
         name = AUTHORNAME
         email = AUTHOREMAIL
-        helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
@@ -27,8 +26,6 @@
         keepBackup = false
 [difftool]
         prompt = false
-[help]
-        autocorrect = 1
 [push]
         # See `git help config` (search for push.default)
         # for more information on different options of the below setting.
