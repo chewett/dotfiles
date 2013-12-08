@@ -2,7 +2,7 @@
 
 # ls aliases
 alias ls='ls --group-directories-first'
-alias la='ls -A --group-directories-first'
+alias la='ls -Ah --group-directories-first'
 alias ll='ls -lh --group-directories-first'
 alias lla='ls -Alh --group-directories-first'
 alias which='type -a' #type -a is more helpful
