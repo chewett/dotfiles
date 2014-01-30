@@ -17,6 +17,11 @@ if [ -d ~/.sr/tools/wrapper ]; then
         export PATH=$PATH:$HOME/.sr/tools/wrapper
 fi
 
+if [ -d ~/.myrepos/ ]; then
+        export PATH=$PATH:$HOME/.myrepos/
+fi
+
+
 if [ -f ~/.sr/tools/wrapper/sr_complete ]; then
         source $HOME/.sr/tools/wrapper/sr_complete
 fi

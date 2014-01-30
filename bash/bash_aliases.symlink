@@ -35,7 +35,6 @@ alias svl='svn log'
 #######################
 
 alias cslib='source /usr/cslib/scripts/GOCSLIB'
-alias mr='~/.myrepos/mr'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
