@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#custom stuff
+alias sah='ssh-add ~/.ssh/hoth.pr'
+
+
 # ls aliases
 alias ls='ls -h --group-directories-first'
 alias la='ls -Ah --group-directories-first'
