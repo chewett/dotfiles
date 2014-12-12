@@ -2,7 +2,7 @@
 
 #custom stuff
 alias sah='ssh-add ~/.ssh/hoth.pr'
-
+alias sag='ssh-add ~/.ssh/github.pr'
 
 # ls aliases
 alias ls='ls -h --group-directories-first'
