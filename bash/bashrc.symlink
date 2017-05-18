@@ -9,25 +9,12 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-if [ -d /usr/cslib/include ]; then
-    export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/cslib/include
-fi
-
 if [ -f /etc/bash.bashrc ]; then
         . /etc/bash.bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-if [ -d ~/.sr/tools/wrapper ]; then
-        export PATH=$PATH:$HOME/.sr/tools/wrapper
-fi
-
 if [ -d ~/.myrepos/ ]; then
         export PATH=$PATH:$HOME/.myrepos/
-fi
-
-
-if [ -f ~/.sr/tools/wrapper/sr_complete ]; then
-        source $HOME/.sr/tools/wrapper/sr_complete
 fi
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
